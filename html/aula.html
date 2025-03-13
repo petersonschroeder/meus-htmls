@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table { 
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th ,td { 
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        
+        }
+        th{
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr >
+            <th colspan="2" rowspan="1"> negrito e italico</th>
+            <th rowspan="2">sublinhado </th>
+            <th rowspan="2">texto pequeno</th>
+            <th rowspan="2">texto riscado</th>
+            <th rowspan="2">texto destacado</th>
+            <th rowspan="2">subscrito e sobescrito</th>
+
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1">negrito</th>
+            <th colspan="1" rowspan="1">italico</th>
+        </tr>
+        <tr>
+            <td><b>texto negrito</b></td>
+            <td><i>texto italico</i></td>
+            <td><u>texto sublindtdado</u></td>
+            <td><small>texto pequeno</small></td>
+            <td><del>texto riscado</del></td>
+            <td> <mark style="background-color: yellow;">texto destacado</mark></td>
+            <td rowspan="2">dtd<sub>2</sub>O <small>e</small>X <sup>2</sup></td>
+        </tr>
+        <tr>
+            <td><b> negrito</b></td>
+            <td><i> italico</i></td>
+            <td><u>sublindtdado</u></td>
+            <td><small> pequeno</small></td>
+            <td><del> riscado</del></td>
+            <td> <mark style="background-color: yellow;"> destacado</mark></td>
+        </tr>
+        
+
+
+    </table>
+    <form action="https://www.google.com/search"method="GET">
+        <input type="text" name="q" pleceholder="Pesquise no google">
+        <button type="submit"> pesquisar </button>
+    </form>
+</body>
+</html>
